@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $('.b-header__burgerMenu').click(function() {
       $(this).toggleClass('active');
+      $("nav").toggleClass('m-shown');
     });
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -11,4 +12,5 @@ $(document).ready(function() {
             });
         });
     });
+
   });
