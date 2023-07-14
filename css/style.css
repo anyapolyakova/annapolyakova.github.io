@@ -284,6 +284,8 @@ iframe {
     padding: .5rem;
     border-radius: 1rem;
     margin: 1rem auto;
+    width: 85%;
+    text-align: center;
 
 }
 .b-articleBody__title {
